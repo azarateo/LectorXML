@@ -10,16 +10,15 @@
 
 @interface LectorXMLViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate>{
 
-    NSXMLParser *analizadorXML;
-    NSMutableArray *articulos;
+    NSXMLParser *rssParser;
+    NSMutableArray *articles;
     NSMutableDictionary *item;
-    NSString *elementoActual;
-    NSMutableString *valorDelElemento;
-    BOOL errorDeAnalisis;
+    NSString *currentElement;
+    NSMutableString *ElementValue;
+    BOOL errorParsing;
 
 }
 
--(void)analizaArchivoXMLEnURL:(NSString *)URL;
-
+ - (void)parseXMLFileAtURL:(NSString *)URL;
 
 @end
