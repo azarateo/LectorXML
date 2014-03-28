@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LectorXMLViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>{
+@interface LectorXMLViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate,NSXMLParserDelegate>{
 
     NSXMLParser *analizadorXML;
     NSMutableArray *articulos;
