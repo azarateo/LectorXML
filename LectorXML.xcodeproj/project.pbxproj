@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A944F3BE18E5E12C00AD393C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3BD18E5E12C00AD393C /* Foundation.framework */; };
+		A944F3C018E5E12C00AD393C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3BF18E5E12C00AD393C /* CoreGraphics.framework */; };
+		A944F3C218E5E12C00AD393C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3C118E5E12C00AD393C /* UIKit.framework */; };
+		A944F3C818E5E12C00AD393C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A944F3C618E5E12C00AD393C /* InfoPlist.strings */; };
+		A944F3CA18E5E12C00AD393C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A944F3C918E5E12C00AD393C /* main.m */; };
+		A944F3CE18E5E12C00AD393C /* LectorXMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A944F3CD18E5E12C00AD393C /* LectorXMLAppDelegate.m */; };
+		A944F3D118E5E12C00AD393C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A944F3CF18E5E12C00AD393C /* Main.storyboard */; };
+		A944F3D418E5E12C00AD393C /* LectorXMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944F3D318E5E12C00AD393C /* LectorXMLViewController.m */; };
+		A944F3D618E5E12C00AD393C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A944F3D518E5E12C00AD393C /* Images.xcassets */; };
+		A944F3DD18E5E12C00AD393C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3DC18E5E12C00AD393C /* XCTest.framework */; };
+		A944F3DE18E5E12C00AD393C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3BD18E5E12C00AD393C /* Foundation.framework */; };
+		A944F3DF18E5E12C00AD393C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3C118E5E12C00AD393C /* UIKit.framework */; };
+		A944F3E718E5E12C00AD393C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A944F3E518E5E12C00AD393C /* InfoPlist.strings */; };
+		A944F3E918E5E12C00AD393C /* LectorXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A944F3E818E5E12C00AD393C /* LectorXMLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A944F3E018E5E12C00AD393C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A944F3B218E5E12C00AD393C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A944F3B918E5E12C00AD393C;
+			remoteInfo = LectorXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A944F3BA18E5E12C00AD393C /* LectorXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LectorXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A944F3BD18E5E12C00AD393C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A944F3BF18E5E12C00AD393C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A944F3C118E5E12C00AD393C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A944F3C518E5E12C00AD393C /* LectorXML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LectorXML-Info.plist"; sourceTree = "<group>"; };
+		A944F3C718E5E12C00AD393C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A944F3C918E5E12C00AD393C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A944F3CB18E5E12C00AD393C /* LectorXML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LectorXML-Prefix.pch"; sourceTree = "<group>"; };
+		A944F3CC18E5E12C00AD393C /* LectorXMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LectorXMLAppDelegate.h; sourceTree = "<group>"; };
+		A944F3CD18E5E12C00AD393C /* LectorXMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectorXMLAppDelegate.m; sourceTree = "<group>"; };
+		A944F3D018E5E12C00AD393C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A944F3D218E5E12C00AD393C /* LectorXMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LectorXMLViewController.h; sourceTree = "<group>"; };
+		A944F3D318E5E12C00AD393C /* LectorXMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectorXMLViewController.m; sourceTree = "<group>"; };
+		A944F3D518E5E12C00AD393C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A944F3DB18E5E12C00AD393C /* LectorXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectorXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A944F3DC18E5E12C00AD393C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A944F3E418E5E12C00AD393C /* LectorXMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LectorXMLTests-Info.plist"; sourceTree = "<group>"; };
+		A944F3E618E5E12C00AD393C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A944F3E818E5E12C00AD393C /* LectorXMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectorXMLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A944F3B718E5E12C00AD393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A944F3C018E5E12C00AD393C /* CoreGraphics.framework in Frameworks */,
+				A944F3C218E5E12C00AD393C /* UIKit.framework in Frameworks */,
+				A944F3BE18E5E12C00AD393C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A944F3D818E5E12C00AD393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A944F3DD18E5E12C00AD393C /* XCTest.framework in Frameworks */,
+				A944F3DF18E5E12C00AD393C /* UIKit.framework in Frameworks */,
+				A944F3DE18E5E12C00AD393C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A944F3B118E5E12C00AD393C = {
+			isa = PBXGroup;
+			children = (
+				A944F3C318E5E12C00AD393C /* LectorXML */,
+				A944F3E218E5E12C00AD393C /* LectorXMLTests */,
+				A944F3BC18E5E12C00AD393C /* Frameworks */,
+				A944F3BB18E5E12C00AD393C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A944F3BB18E5E12C00AD393C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A944F3BA18E5E12C00AD393C /* LectorXML.app */,
+				A944F3DB18E5E12C00AD393C /* LectorXMLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A944F3BC18E5E12C00AD393C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A944F3BD18E5E12C00AD393C /* Foundation.framework */,
+				A944F3BF18E5E12C00AD393C /* CoreGraphics.framework */,
+				A944F3C118E5E12C00AD393C /* UIKit.framework */,
+				A944F3DC18E5E12C00AD393C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A944F3C318E5E12C00AD393C /* LectorXML */ = {
+			isa = PBXGroup;
+			children = (
+				A944F3CC18E5E12C00AD393C /* LectorXMLAppDelegate.h */,
+				A944F3CD18E5E12C00AD393C /* LectorXMLAppDelegate.m */,
+				A944F3CF18E5E12C00AD393C /* Main.storyboard */,
+				A944F3D218E5E12C00AD393C /* LectorXMLViewController.h */,
+				A944F3D318E5E12C00AD393C /* LectorXMLViewController.m */,
+				A944F3D518E5E12C00AD393C /* Images.xcassets */,
+				A944F3C418E5E12C00AD393C /* Supporting Files */,
+			);
+			path = LectorXML;
+			sourceTree = "<group>";
+		};
+		A944F3C418E5E12C00AD393C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A944F3C518E5E12C00AD393C /* LectorXML-Info.plist */,
+				A944F3C618E5E12C00AD393C /* InfoPlist.strings */,
+				A944F3C918E5E12C00AD393C /* main.m */,
+				A944F3CB18E5E12C00AD393C /* LectorXML-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A944F3E218E5E12C00AD393C /* LectorXMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				A944F3E818E5E12C00AD393C /* LectorXMLTests.m */,
+				A944F3E318E5E12C00AD393C /* Supporting Files */,
+			);
+			path = LectorXMLTests;
+			sourceTree = "<group>";
+		};
+		A944F3E318E5E12C00AD393C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A944F3E418E5E12C00AD393C /* LectorXMLTests-Info.plist */,
+				A944F3E518E5E12C00AD393C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A944F3B918E5E12C00AD393C /* LectorXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A944F3EC18E5E12C00AD393C /* Build configuration list for PBXNativeTarget "LectorXML" */;
+			buildPhases = (
+				A944F3B618E5E12C00AD393C /* Sources */,
+				A944F3B718E5E12C00AD393C /* Frameworks */,
+				A944F3B818E5E12C00AD393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LectorXML;
+			productName = LectorXML;
+			productReference = A944F3BA18E5E12C00AD393C /* LectorXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A944F3DA18E5E12C00AD393C /* LectorXMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A944F3EF18E5E12C00AD393C /* Build configuration list for PBXNativeTarget "LectorXMLTests" */;
+			buildPhases = (
+				A944F3D718E5E12C00AD393C /* Sources */,
+				A944F3D818E5E12C00AD393C /* Frameworks */,
+				A944F3D918E5E12C00AD393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A944F3E118E5E12C00AD393C /* PBXTargetDependency */,
+			);
+			name = LectorXMLTests;
+			productName = LectorXMLTests;
+			productReference = A944F3DB18E5E12C00AD393C /* LectorXMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A944F3B218E5E12C00AD393C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LectorXML;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = alejandro;
+				TargetAttributes = {
+					A944F3DA18E5E12C00AD393C = {
+						TestTargetID = A944F3B918E5E12C00AD393C;
+					};
+				};
+			};
+			buildConfigurationList = A944F3B518E5E12C00AD393C /* Build configuration list for PBXProject "LectorXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A944F3B118E5E12C00AD393C;
+			productRefGroup = A944F3BB18E5E12C00AD393C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A944F3B918E5E12C00AD393C /* LectorXML */,
+				A944F3DA18E5E12C00AD393C /* LectorXMLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A944F3B818E5E12C00AD393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A944F3D618E5E12C00AD393C /* Images.xcassets in Resources */,
+				A944F3C818E5E12C00AD393C /* InfoPlist.strings in Resources */,
+				A944F3D118E5E12C00AD393C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A944F3D918E5E12C00AD393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A944F3E718E5E12C00AD393C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A944F3B618E5E12C00AD393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A944F3CA18E5E12C00AD393C /* main.m in Sources */,
+				A944F3CE18E5E12C00AD393C /* LectorXMLAppDelegate.m in Sources */,
+				A944F3D418E5E12C00AD393C /* LectorXMLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A944F3D718E5E12C00AD393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A944F3E918E5E12C00AD393C /* LectorXMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A944F3E118E5E12C00AD393C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A944F3B918E5E12C00AD393C /* LectorXML */;
+			targetProxy = A944F3E018E5E12C00AD393C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A944F3C618E5E12C00AD393C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A944F3C718E5E12C00AD393C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A944F3CF18E5E12C00AD393C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A944F3D018E5E12C00AD393C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A944F3E518E5E12C00AD393C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A944F3E618E5E12C00AD393C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A944F3EA18E5E12C00AD393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A944F3EB18E5E12C00AD393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A944F3ED18E5E12C00AD393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LectorXML/LectorXML-Prefix.pch";
+				INFOPLIST_FILE = "LectorXML/LectorXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A944F3EE18E5E12C00AD393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LectorXML/LectorXML-Prefix.pch";
+				INFOPLIST_FILE = "LectorXML/LectorXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A944F3F018E5E12C00AD393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LectorXML.app/LectorXML";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LectorXML/LectorXML-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LectorXMLTests/LectorXMLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A944F3F118E5E12C00AD393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LectorXML.app/LectorXML";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LectorXML/LectorXML-Prefix.pch";
+				INFOPLIST_FILE = "LectorXMLTests/LectorXMLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A944F3B518E5E12C00AD393C /* Build configuration list for PBXProject "LectorXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A944F3EA18E5E12C00AD393C /* Debug */,
+				A944F3EB18E5E12C00AD393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A944F3EC18E5E12C00AD393C /* Build configuration list for PBXNativeTarget "LectorXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A944F3ED18E5E12C00AD393C /* Debug */,
+				A944F3EE18E5E12C00AD393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A944F3EF18E5E12C00AD393C /* Build configuration list for PBXNativeTarget "LectorXMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A944F3F018E5E12C00AD393C /* Debug */,
+				A944F3F118E5E12C00AD393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A944F3B218E5E12C00AD393C /* Project object */;
+}
