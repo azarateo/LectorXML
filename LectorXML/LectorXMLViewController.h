@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LectorXMLViewController : UIViewController
+@interface LectorXMLViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>{
+
+    NSXMLParser *analizadorXML;
+    NSMutableArray *articulos;
+    NSMutableDictionary *item;
+    NSString *elementoActual;
+    NSMutableString *valorDelElemento;
+    BOOL errorDeAnalisis;
+
+}
+
+-(void)analizaArchivoXMLEnURL:(NSString *)URL;
+
 
 @end
