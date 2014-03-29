@@ -21,6 +21,7 @@
 		A944F3DF18E5E12C00AD393C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944F3C118E5E12C00AD393C /* UIKit.framework */; };
 		A944F3E718E5E12C00AD393C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A944F3E518E5E12C00AD393C /* InfoPlist.strings */; };
 		A944F3E918E5E12C00AD393C /* LectorXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A944F3E818E5E12C00AD393C /* LectorXMLTests.m */; };
+		FCBA50F318E65313005C5134 /* Lista.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBA50F218E65313005C5134 /* Lista.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A944F3E418E5E12C00AD393C /* LectorXMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LectorXMLTests-Info.plist"; sourceTree = "<group>"; };
 		A944F3E618E5E12C00AD393C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A944F3E818E5E12C00AD393C /* LectorXMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectorXMLTests.m; sourceTree = "<group>"; };
+		FCBA50F118E65313005C5134 /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
+		FCBA50F218E65313005C5134 /* Lista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				A944F3D318E5E12C00AD393C /* LectorXMLViewController.m */,
 				A944F3D518E5E12C00AD393C /* Images.xcassets */,
 				A944F3C418E5E12C00AD393C /* Supporting Files */,
+				FCBA50F118E65313005C5134 /* Lista.h */,
+				FCBA50F218E65313005C5134 /* Lista.m */,
 			);
 			path = LectorXML;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				A944F3CA18E5E12C00AD393C /* main.m in Sources */,
 				A944F3CE18E5E12C00AD393C /* LectorXMLAppDelegate.m in Sources */,
 				A944F3D418E5E12C00AD393C /* LectorXMLViewController.m in Sources */,
+				FCBA50F318E65313005C5134 /* Lista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				A944F3EE18E5E12C00AD393C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A944F3EF18E5E12C00AD393C /* Build configuration list for PBXNativeTarget "LectorXMLTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				A944F3F118E5E12C00AD393C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

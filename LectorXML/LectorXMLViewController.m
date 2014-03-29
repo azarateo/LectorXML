@@ -19,11 +19,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self parseXMLFileAtURL:@"poi.colombiajoven.gov.co/api/oferta"];
+    [self parseXMLFileAtURL:@"http://www.w3schools.com/xml/plant_catalog.xml"];
 }
 
 - (void)parserDidStartDocument:(NSXMLParser *)parser{
-    NSLog(@"File found and parsing started");
+    NSLog(@"Archivo encontrado e inicia el análisis del archivo");
+    
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 1;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    NSString *identificador = @"celda";
+    UITableViewCell * celda = [tableView dequeueReusableCellWithIdentifier:identificador forIndexPath:indexPath];
+    celda.textLabel.text = @"Título de la celda";
+    celda.detailTextLabel.text = @"Detalle";
+    return celda;
     
 }
 
@@ -36,12 +50,13 @@
 
 - (void)parseXMLFileAtURL:(NSString *)URL
 {
-    
+    NSLog(@"Inicia el proceso de análisis del archivo");
     NSString *agentString = @"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1";
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:
                                     [NSURL URLWithString:URL]];
     [request setValue:agentString forHTTPHeaderField:@"User-Agent"];
     NSData *xmlFile = [ NSURLConnection sendSynchronousRequest:request returningResponse: nil error: nil ];
+    
     
     
     articles = [[NSMutableArray alloc] init];
@@ -71,22 +86,37 @@
 
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{
+    
+    
+    NSLog(@"Encontró un elemento");
+
     currentElement = [elementName copy];
     ElementValue = [[NSMutableString alloc] init];
-    if ([elementName isEqualToString:@"item"]) {
+    if ([elementName isEqualToString:@"breakFast_menu"]) {
         item = [[NSMutableDictionary alloc] init];
+         NSLog(@"Encontró el elemento %@",elementName);
         
     }
+   
     
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
+    
+    
+    NSMutableString *cadena = [NSMutableString stringWithString:string];
+    NSLog(cadena, nil);
     [ElementValue appendString:string];
 }
 
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{
-    if ([elementName isEqualToString:@"item"]) {
+    
+    NSLog(@"Terminó el elemento");
+    
+    if ([elementName isEqualToString:@"breakFast_menu"]) {
+        
+        NSLog(@"Agregó un elemento");
         [articles addObject:[item copy]];
     } else {
         [item setObject:ElementValue forKey:elementName];
@@ -104,6 +134,8 @@
     }
     
 }
+
+
 
 
 @end
